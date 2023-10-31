@@ -1,0 +1,69 @@
+wandb_version: 1
+
+SEED:
+  desc: null
+  value: 42
+DATASET:
+  desc: null
+  value:
+    datadir: /home/inho/df_detection/experiments_xception/data/
+    dataname: dataset2
+OPTIMIZER:
+  desc: null
+  value:
+    opt_name: Adam
+    lr: 0.001
+TRAINING:
+  desc: null
+  value:
+    batch_size: 32
+    test_batch_size: 32
+    epochs: 100
+    log_interval: 100
+    recorded_epoch: 10
+    use_scheduler: true
+RESULT:
+  desc: null
+  value:
+    savedir: /media/data1/inho/df_detection/experiments_xception/saved_model/
+MODEL:
+  desc: null
+  value: xception
+EXP_NAME:
+  desc: null
+  value: Xception-dataset2
+_wandb:
+  desc: null
+  value:
+    python_version: 3.7.16
+    cli_version: 0.15.12
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1697279525.672133
+    t:
+      1:
+      - 1
+      - 5
+      - 41
+      - 49
+      - 53
+      - 55
+      - 63
+      2:
+      - 1
+      - 5
+      - 41
+      - 49
+      - 53
+      - 55
+      - 63
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.7.16
+      5: 0.15.12
+      8:
+      - 5
+      13: linux-x86_64

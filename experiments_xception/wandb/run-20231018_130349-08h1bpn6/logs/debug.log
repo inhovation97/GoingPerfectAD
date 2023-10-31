@@ -1,0 +1,27 @@
+2023-10-18 13:03:49,488 INFO    MainThread:1396 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-10-18 13:03:49,488 INFO    MainThread:1396 [wandb_setup.py:_flush():76] Configure stats pid to 1396
+2023-10-18 13:03:49,488 INFO    MainThread:1396 [wandb_setup.py:_flush():76] Loading settings from /home/inho/.config/wandb/settings
+2023-10-18 13:03:49,488 INFO    MainThread:1396 [wandb_setup.py:_flush():76] Loading settings from /home/inho/df_detection/experiments_xception/wandb/settings
+2023-10-18 13:03:49,488 INFO    MainThread:1396 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-10-18 13:03:49,488 INFO    MainThread:1396 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-10-18 13:03:49,488 INFO    MainThread:1396 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': '/home/inho/df_detection/experiments_xception/main.py', 'program': 'main.py'}
+2023-10-18 13:03:49,489 INFO    MainThread:1396 [wandb_init.py:_log_setup():528] Logging user logs to /home/inho/df_detection/experiments_xception/wandb/run-20231018_130349-08h1bpn6/logs/debug.log
+2023-10-18 13:03:49,489 INFO    MainThread:1396 [wandb_init.py:_log_setup():529] Logging internal logs to /home/inho/df_detection/experiments_xception/wandb/run-20231018_130349-08h1bpn6/logs/debug-internal.log
+2023-10-18 13:03:49,489 INFO    MainThread:1396 [wandb_init.py:init():568] calling init triggers
+2023-10-18 13:03:49,489 INFO    MainThread:1396 [wandb_init.py:init():576] wandb.init called with sweep_config: {}
+config: {'SEED': 42, 'DATASET': {'datadir': '/home/inho/df_detection/experiments_xception/data/', 'dataname': 'dataset4'}, 'OPTIMIZER': {'opt_name': 'Adam', 'lr': 0.001}, 'TRAINING': {'batch_size': 32, 'test_batch_size': 32, 'epochs': 50, 'log_interval': 100, 'use_scheduler': True}, 'RESULT': {'savedir': '/media/data1/inho/df_detection/experiments_xception/saved_model/'}, 'MODEL': 'xception', 'MODIFYING': 'True', 'EXP_NAME': 'Xception-dataset4'}
+2023-10-18 13:03:49,489 INFO    MainThread:1396 [wandb_init.py:init():618] starting backend
+2023-10-18 13:03:49,489 INFO    MainThread:1396 [wandb_init.py:init():622] setting up manager
+2023-10-18 13:03:49,493 INFO    MainThread:1396 [backend.py:_multiprocessing_setup():107] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-10-18 13:03:49,497 INFO    MainThread:1396 [wandb_init.py:init():628] backend started and connected
+2023-10-18 13:03:49,503 INFO    MainThread:1396 [wandb_init.py:init():720] updated telemetry
+2023-10-18 13:03:49,504 INFO    MainThread:1396 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-10-18 13:03:50,104 INFO    MainThread:1396 [wandb_run.py:_on_init():2220] communicating current version
+2023-10-18 13:03:50,166 INFO    MainThread:1396 [wandb_run.py:_on_init():2229] got version response 
+2023-10-18 13:03:50,166 INFO    MainThread:1396 [wandb_init.py:init():804] starting run threads in backend
+2023-10-18 13:03:54,795 INFO    MainThread:1396 [wandb_run.py:_console_start():2199] atexit reg
+2023-10-18 13:03:54,795 INFO    MainThread:1396 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-10-18 13:03:54,796 INFO    MainThread:1396 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-10-18 13:03:54,796 INFO    MainThread:1396 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-10-18 13:03:54,798 INFO    MainThread:1396 [wandb_init.py:init():845] run started, returning control to user process
+2023-10-18 19:44:43,959 WARNING MsgRouterThr:1396 [router.py:message_loop():77] message_loop has been closed

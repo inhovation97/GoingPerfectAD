@@ -1,0 +1,79 @@
+
+Epoch: 1/50
+TRAIN [ 100/2250] Loss: 0.0811 (0.2329) Acc: 90.875% LR: 1.000e-03 Time: 0.188s,  170.05/s (0.501s,   63.81/s) Data: 0.004 (0.285)
+TRAIN [ 200/2250] Loss: 0.1423 (0.1807) Acc: 92.922% LR: 1.000e-03 Time: 0.191s,  167.38/s (0.428s,   74.74/s) Data: 0.006 (0.227)
+TRAIN [ 300/2250] Loss: 0.0363 (0.1525) Acc: 94.010% LR: 1.000e-03 Time: 0.193s,  166.19/s (0.379s,   84.51/s) Data: 0.006 (0.182)
+TRAIN [ 400/2250] Loss: 0.1770 (0.1369) Acc: 94.727% LR: 1.000e-03 Time: 0.194s,  164.85/s (0.344s,   92.99/s) Data: 0.006 (0.150)
+TRAIN [ 500/2250] Loss: 0.1638 (0.1232) Acc: 95.275% LR: 1.000e-03 Time: 0.193s,  165.47/s (0.325s,   98.57/s) Data: 0.005 (0.132)
+TRAIN [ 600/2250] Loss: 0.0609 (0.1132) Acc: 95.724% LR: 1.000e-03 Time: 0.194s,  165.33/s (0.312s,  102.56/s) Data: 0.006 (0.120)
+TRAIN [ 700/2250] Loss: 0.0701 (0.1071) Acc: 95.996% LR: 1.000e-03 Time: 0.193s,  165.43/s (0.300s,  106.58/s) Data: 0.005 (0.109)
+TRAIN [ 800/2250] Loss: 0.0235 (0.1012) Acc: 96.238% LR: 1.000e-03 Time: 0.196s,  163.59/s (0.293s,  109.08/s) Data: 0.006 (0.102)
+TRAIN [ 900/2250] Loss: 0.0492 (0.0962) Acc: 96.431% LR: 1.000e-03 Time: 0.194s,  164.78/s (0.286s,  111.84/s) Data: 0.004 (0.095)
+TRAIN [1000/2250] Loss: 0.0886 (0.0914) Acc: 96.625% LR: 1.000e-03 Time: 0.196s,  163.29/s (0.283s,  112.95/s) Data: 0.006 (0.092)
+TRAIN [1100/2250] Loss: 0.0064 (0.0883) Acc: 96.776% LR: 1.000e-03 Time: 0.198s,  161.82/s (0.280s,  114.34/s) Data: 0.008 (0.089)
+TRAIN [1200/2250] Loss: 0.0387 (0.0848) Acc: 96.922% LR: 1.000e-03 Time: 0.195s,  164.04/s (0.276s,  115.79/s) Data: 0.005 (0.086)
+TRAIN [1300/2250] Loss: 0.0532 (0.0818) Acc: 97.048% LR: 1.000e-03 Time: 0.215s,  148.65/s (0.275s,  116.45/s) Data: 0.025 (0.084)
+TRAIN [1400/2250] Loss: 0.0152 (0.0795) Acc: 97.129% LR: 1.000e-03 Time: 0.195s,  164.07/s (0.271s,  118.25/s) Data: 0.005 (0.080)
+TRAIN [1500/2250] Loss: 0.0007 (0.0768) Acc: 97.223% LR: 1.000e-03 Time: 0.208s,  153.86/s (0.269s,  118.97/s) Data: 0.018 (0.078)
+TRAIN [1600/2250] Loss: 0.0113 (0.0747) Acc: 97.307% LR: 1.000e-03 Time: 0.196s,  163.21/s (0.266s,  120.15/s) Data: 0.005 (0.076)
+TRAIN [1700/2250] Loss: 0.0055 (0.0716) Acc: 97.425% LR: 1.000e-03 Time: 0.194s,  164.63/s (0.265s,  120.83/s) Data: 0.004 (0.074)
+TRAIN [1800/2250] Loss: 0.0330 (0.0698) Acc: 97.502% LR: 1.000e-03 Time: 0.198s,  161.77/s (0.263s,  121.73/s) Data: 0.006 (0.072)
+TRAIN [1900/2250] Loss: 0.0060 (0.0685) Acc: 97.554% LR: 1.000e-03 Time: 0.200s,  160.02/s (0.261s,  122.54/s) Data: 0.006 (0.070)
+TRAIN [2000/2250] Loss: 0.0120 (0.0669) Acc: 97.608% LR: 1.000e-03 Time: 0.196s,  163.62/s (0.261s,  122.66/s) Data: 0.005 (0.070)
+TRAIN [2100/2250] Loss: 0.0194 (0.0657) Acc: 97.637% LR: 1.000e-03 Time: 0.201s,  159.44/s (0.258s,  123.83/s) Data: 0.004 (0.067)
+TRAIN [2200/2250] Loss: 0.0138 (0.0639) Acc: 97.697% LR: 1.000e-03 Time: 0.202s,  158.73/s (0.258s,  124.11/s) Data: 0.007 (0.067)
+TEST [101/438]: Loss: 0.176 | Acc: 92.358% [2985/3232]
+TEST [201/438]: Loss: 0.311 | Acc: 90.096% [5795/6432]
+TEST [301/438]: Loss: 0.241 | Acc: 92.473% [8907/9632]
+TEST [401/438]: Loss: 0.184 | Acc: 94.311% [12102/12832]
+Best Accuracy 0.000% to 94.743%
+Epoch: 2/50
+TRAIN [ 100/2250] Loss: 0.0358 (0.0232) Acc: 99.031% LR: 1.000e-03 Time: 0.210s,  152.08/s (0.215s,  148.85/s) Data: 0.018 (0.027)
+TRAIN [ 200/2250] Loss: 0.0036 (0.0223) Acc: 99.234% LR: 1.000e-03 Time: 0.197s,  162.53/s (0.207s,  154.93/s) Data: 0.006 (0.018)
+TRAIN [ 300/2250] Loss: 0.0260 (0.0240) Acc: 99.219% LR: 1.000e-03 Time: 0.203s,  157.25/s (0.205s,  156.33/s) Data: 0.006 (0.015)
+TRAIN [ 400/2250] Loss: 0.0168 (0.0286) Acc: 99.023% LR: 1.000e-03 Time: 0.202s,  158.10/s (0.205s,  156.25/s) Data: 0.006 (0.013)
+TRAIN [ 500/2250] Loss: 0.0268 (0.0286) Acc: 99.031% LR: 1.000e-03 Time: 0.206s,  155.60/s (0.205s,  156.14/s) Data: 0.008 (0.012)
+TRAIN [ 600/2250] Loss: 0.0075 (0.0287) Acc: 99.036% LR: 1.000e-03 Time: 0.207s,  154.79/s (0.205s,  155.89/s) Data: 0.008 (0.011)
+TRAIN [ 700/2250] Loss: 0.0099 (0.0275) Acc: 99.085% LR: 1.000e-03 Time: 0.203s,  157.50/s (0.205s,  155.72/s) Data: 0.007 (0.011)
+TRAIN [ 800/2250] Loss: 0.0003 (0.0264) Acc: 99.121% LR: 1.000e-03 Time: 0.202s,  158.27/s (0.206s,  155.59/s) Data: 0.007 (0.011)
+TRAIN [ 900/2250] Loss: 0.0024 (0.0274) Acc: 99.052% LR: 1.000e-03 Time: 0.215s,  148.83/s (0.206s,  155.49/s) Data: 0.010 (0.010)
+TRAIN [1000/2250] Loss: 0.0112 (0.0285) Acc: 99.006% LR: 1.000e-03 Time: 0.200s,  159.68/s (0.206s,  155.42/s) Data: 0.007 (0.010)
+TRAIN [1100/2250] Loss: 0.0124 (0.0280) Acc: 99.028% LR: 1.000e-03 Time: 0.203s,  157.63/s (0.206s,  155.35/s) Data: 0.008 (0.010)
+TRAIN [1200/2250] Loss: 0.0001 (0.0272) Acc: 99.065% LR: 1.000e-03 Time: 0.212s,  150.77/s (0.206s,  155.30/s) Data: 0.016 (0.010)
+TRAIN [1300/2250] Loss: 0.0070 (0.0268) Acc: 99.077% LR: 1.000e-03 Time: 0.207s,  154.89/s (0.206s,  155.20/s) Data: 0.007 (0.010)
+TRAIN [1400/2250] Loss: 0.0012 (0.0265) Acc: 99.089% LR: 1.000e-03 Time: 0.205s,  155.82/s (0.206s,  155.11/s) Data: 0.009 (0.010)
+TRAIN [1500/2250] Loss: 0.0001 (0.0265) Acc: 99.094% LR: 1.000e-03 Time: 0.207s,  154.94/s (0.206s,  155.08/s) Data: 0.007 (0.010)
+TRAIN [1600/2250] Loss: 0.0220 (0.0264) Acc: 99.094% LR: 1.000e-03 Time: 0.204s,  156.72/s (0.206s,  155.06/s) Data: 0.008 (0.010)
+TRAIN [1700/2250] Loss: 0.0694 (0.0265) Acc: 99.088% LR: 1.000e-03 Time: 0.207s,  154.58/s (0.206s,  155.04/s) Data: 0.008 (0.010)
+TRAIN [1800/2250] Loss: 0.0350 (0.0270) Acc: 99.085% LR: 1.000e-03 Time: 0.208s,  153.73/s (0.206s,  155.05/s) Data: 0.006 (0.009)
+TRAIN [1900/2250] Loss: 0.0029 (0.0262) Acc: 99.110% LR: 1.000e-03 Time: 0.207s,  154.70/s (0.206s,  155.08/s) Data: 0.007 (0.009)
+TRAIN [2000/2250] Loss: 0.0292 (0.0259) Acc: 99.120% LR: 1.000e-03 Time: 0.208s,  153.61/s (0.206s,  155.08/s) Data: 0.007 (0.009)
+TRAIN [2100/2250] Loss: 0.0636 (0.0254) Acc: 99.138% LR: 1.000e-03 Time: 0.207s,  154.75/s (0.206s,  155.07/s) Data: 0.007 (0.009)
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/wandb/sdk/lib/exit_hooks.py", line 41, in exc_handler
+    def exc_handler(
+KeyboardInterrupt
+Original exception was:
+Traceback (most recent call last):
+  File "main.py", line 113, in <module>
+    run(cfg)
+  File "main.py", line 94, in run
+    device       = device)
+  File "/home/inho/df_detection/experiments_xception/train.py", line 158, in fit
+    train_metrics = train(model, trainloader, criterion, optimizer, log_interval, device)
+  File "/home/inho/df_detection/experiments_xception/train.py", line 53, in train
+    optimizer.step()
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/optim/lr_scheduler.py", line 68, in wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/optim/optimizer.py", line 140, in wrapper
+    out = func(*args, **kwargs)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/optim/optimizer.py", line 23, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/optim/adam.py", line 252, in step
+    found_inf=found_inf)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/optim/adam.py", line 316, in adam
+    found_inf=found_inf)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/optim/adam.py", line 363, in _single_tensor_adam
+    exp_avg.mul_(beta1).add_(grad, alpha=1 - beta1)
+KeyboardInterrupt

@@ -1,0 +1,40 @@
+
+Epoch: 1/100
+TRAIN [  11/4500] Loss: 0.2717 (0.5150) Acc: 69.318% LR: 1.000e-03 Time: 0.098s,  163.11/s (0.426s,   37.60/s) Data: 0.003 (0.077)
+TRAIN [  21/4500] Loss: 0.4113 (0.4926) Acc: 75.893% LR: 1.000e-03 Time: 0.098s,  163.79/s (0.271s,   59.11/s) Data: 0.002 (0.042)
+TRAIN [  31/4500] Loss: 0.1542 (0.4468) Acc: 79.435% LR: 1.000e-03 Time: 0.098s,  162.97/s (0.215s,   74.36/s) Data: 0.002 (0.029)
+TRAIN [  41/4500] Loss: 0.2692 (0.4069) Acc: 81.860% LR: 1.000e-03 Time: 0.097s,  165.29/s (0.218s,   73.49/s) Data: 0.002 (0.054)
+TRAIN [  51/4500] Loss: 0.1058 (0.3598) Acc: 84.069% LR: 1.000e-03 Time: 0.098s,  162.80/s (0.223s,   71.71/s) Data: 0.003 (0.072)
+TRAIN [  61/4500] Loss: 0.7272 (0.3476) Acc: 84.939% LR: 1.000e-03 Time: 0.100s,  160.46/s (0.231s,   69.21/s) Data: 0.003 (0.089)
+TRAIN [  71/4500] Loss: 0.1758 (0.3368) Acc: 85.827% LR: 1.000e-03 Time: 0.099s,  162.14/s (0.213s,   75.17/s) Data: 0.003 (0.077)
+TRAIN [  81/4500] Loss: 0.6738 (0.3410) Acc: 85.802% LR: 1.000e-03 Time: 0.101s,  157.78/s (0.212s,   75.63/s) Data: 0.004 (0.080)
+TRAIN [  91/4500] Loss: 0.3185 (0.3329) Acc: 86.195% LR: 1.000e-03 Time: 0.118s,  135.93/s (0.199s,   80.21/s) Data: 0.017 (0.072)
+TRAIN [ 101/4500] Loss: 0.1115 (0.3228) Acc: 86.696% LR: 1.000e-03 Time: 0.099s,  161.24/s (0.192s,   83.30/s) Data: 0.003 (0.067)
+Traceback (most recent call last):
+  File "main.py", line 104, in <module>
+    run(cfg)
+  File "main.py", line 87, in run
+    device       = device)
+  File "/home/inho/df_detection/experiments_xception/train.py", line 133, in fit
+    train_metrics = train(model, trainloader, criterion, optimizer, log_interval, device)
+  File "/home/inho/df_detection/experiments_xception/train.py", line 40, in train
+    for idx, (inputs, targets) in enumerate(dataloader):
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1316, in _next_data
+    idx, data = self._get_data()
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1282, in _get_data
+    success, data = self._try_get_data()
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1120, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/multiprocessing/queues.py", line 104, in get
+    if not self._poll(timeout):
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/multiprocessing/connection.py", line 414, in _poll
+    r = wait([self], timeout)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt

@@ -1,0 +1,24 @@
+
+Epoch: 1/100
+Traceback (most recent call last):
+  File "main.py", line 104, in <module>
+    run(cfg)
+  File "main.py", line 87, in run
+    device       = device)
+  File "/home/inho/df_detection/experiments_xception/train.py", line 133, in fit
+    train_metrics = train(model, trainloader, criterion, optimizer, log_interval, device)
+  File "/home/inho/df_detection/experiments_xception/train.py", line 46, in train
+    outputs = model(inputs)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/timm/models/xception.py", line 219, in forward
+    x = self.forward_features(x)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/timm/models/xception.py", line 182, in forward_features
+    x = self.conv1(x)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 457, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 454, in _conv_forward
+    self.padding, self.dilation, self.groups)
+KeyboardInterrupt

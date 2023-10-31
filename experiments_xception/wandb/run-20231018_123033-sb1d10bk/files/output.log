@@ -1,0 +1,88 @@
+
+Epoch: 1/50
+TRAIN [ 100/2250] Loss: 0.1133 (0.3311) Acc: 85.875% LR: 1.000e-03 Time: 0.196s,  163.30/s (0.278s,  114.96/s) Data: 0.012 (0.072)
+TRAIN [ 200/2250] Loss: 0.1240 (0.2416) Acc: 89.969% LR: 1.000e-03 Time: 0.192s,  166.44/s (0.285s,  112.42/s) Data: 0.006 (0.089)
+TRAIN [ 300/2250] Loss: 0.0672 (0.2061) Acc: 91.531% LR: 1.000e-03 Time: 0.192s,  166.77/s (0.283s,  113.19/s) Data: 0.006 (0.090)
+TRAIN [ 400/2250] Loss: 0.4345 (0.1828) Acc: 92.562% LR: 1.000e-03 Time: 0.192s,  166.45/s (0.272s,  117.49/s) Data: 0.005 (0.081)
+TRAIN [ 500/2250] Loss: 0.1239 (0.1660) Acc: 93.312% LR: 1.000e-03 Time: 0.193s,  166.01/s (0.267s,  119.73/s) Data: 0.005 (0.076)
+TRAIN [ 600/2250] Loss: 0.1239 (0.1522) Acc: 93.896% LR: 1.000e-03 Time: 0.193s,  166.15/s (0.264s,  121.13/s) Data: 0.006 (0.074)
+TRAIN [ 700/2250] Loss: 0.0449 (0.1437) Acc: 94.348% LR: 1.000e-03 Time: 0.191s,  167.48/s (0.259s,  123.42/s) Data: 0.004 (0.069)
+TRAIN [ 800/2250] Loss: 0.1380 (0.1349) Acc: 94.754% LR: 1.000e-03 Time: 0.193s,  165.59/s (0.258s,  124.27/s) Data: 0.005 (0.068)
+TRAIN [ 900/2250] Loss: 0.0062 (0.1275) Acc: 95.066% LR: 1.000e-03 Time: 0.193s,  165.71/s (0.254s,  125.88/s) Data: 0.005 (0.065)
+TRAIN [1000/2250] Loss: 0.0328 (0.1211) Acc: 95.319% LR: 1.000e-03 Time: 0.191s,  167.12/s (0.255s,  125.70/s) Data: 0.005 (0.065)
+TRAIN [1100/2250] Loss: 0.0065 (0.1157) Acc: 95.534% LR: 1.000e-03 Time: 0.207s,  154.33/s (0.254s,  126.10/s) Data: 0.019 (0.064)
+TRAIN [1200/2250] Loss: 0.0244 (0.1109) Acc: 95.724% LR: 1.000e-03 Time: 0.194s,  165.21/s (0.252s,  126.77/s) Data: 0.005 (0.063)
+TRAIN [1300/2250] Loss: 0.0037 (0.1073) Acc: 95.873% LR: 1.000e-03 Time: 0.236s,  135.56/s (0.253s,  126.62/s) Data: 0.045 (0.063)
+TRAIN [1400/2250] Loss: 0.0195 (0.1033) Acc: 96.036% LR: 1.000e-03 Time: 0.193s,  165.68/s (0.250s,  127.95/s) Data: 0.005 (0.061)
+TRAIN [1500/2250] Loss: 0.0229 (0.1000) Acc: 96.171% LR: 1.000e-03 Time: 0.228s,  140.25/s (0.250s,  128.07/s) Data: 0.040 (0.061)
+TRAIN [1600/2250] Loss: 0.0912 (0.0963) Acc: 96.311% LR: 1.000e-03 Time: 0.195s,  164.44/s (0.248s,  128.85/s) Data: 0.006 (0.059)
+TRAIN [1700/2250] Loss: 0.0088 (0.0942) Acc: 96.403% LR: 1.000e-03 Time: 0.194s,  164.80/s (0.248s,  129.06/s) Data: 0.005 (0.059)
+TRAIN [1800/2250] Loss: 0.0851 (0.0922) Acc: 96.498% LR: 1.000e-03 Time: 0.198s,  161.96/s (0.247s,  129.68/s) Data: 0.006 (0.058)
+TRAIN [1900/2250] Loss: 0.0037 (0.0897) Acc: 96.600% LR: 1.000e-03 Time: 0.193s,  165.92/s (0.246s,  130.07/s) Data: 0.005 (0.057)
+TRAIN [2000/2250] Loss: 0.0090 (0.0872) Acc: 96.717% LR: 1.000e-03 Time: 0.195s,  164.04/s (0.247s,  129.79/s) Data: 0.006 (0.057)
+TRAIN [2100/2250] Loss: 0.0037 (0.0856) Acc: 96.781% LR: 1.000e-03 Time: 0.194s,  164.88/s (0.245s,  130.78/s) Data: 0.005 (0.056)
+TRAIN [2200/2250] Loss: 0.0342 (0.0840) Acc: 96.852% LR: 1.000e-03 Time: 0.193s,  165.72/s (0.245s,  130.76/s) Data: 0.005 (0.056)
+TEST [101/438]: Loss: 0.307 | Acc: 87.500% [2828/3232]
+TEST [201/438]: Loss: 0.225 | Acc: 91.371% [5877/6432]
+TEST [301/438]: Loss: 0.185 | Acc: 93.106% [8968/9632]
+TEST [401/438]: Loss: 0.196 | Acc: 93.968% [12058/12832]
+Best Accuracy 0.000% to 93.393%
+Epoch: 2/50
+TRAIN [ 100/2250] Loss: 0.0238 (0.0371) Acc: 98.562% LR: 1.000e-03 Time: 0.197s,  162.42/s (0.209s,  152.82/s) Data: 0.008 (0.022)
+TRAIN [ 200/2250] Loss: 0.0194 (0.0360) Acc: 98.672% LR: 1.000e-03 Time: 0.194s,  164.61/s (0.202s,  158.17/s) Data: 0.006 (0.015)
+TRAIN [ 300/2250] Loss: 0.0254 (0.0342) Acc: 98.802% LR: 1.000e-03 Time: 0.194s,  165.25/s (0.200s,  159.86/s) Data: 0.006 (0.012)
+TRAIN [ 400/2250] Loss: 0.1218 (0.0367) Acc: 98.711% LR: 1.000e-03 Time: 0.195s,  164.50/s (0.199s,  160.64/s) Data: 0.006 (0.011)
+TRAIN [ 500/2250] Loss: 0.0027 (0.0345) Acc: 98.819% LR: 1.000e-03 Time: 0.196s,  163.02/s (0.199s,  161.01/s) Data: 0.007 (0.010)
+TRAIN [ 600/2250] Loss: 0.0212 (0.0348) Acc: 98.828% LR: 1.000e-03 Time: 0.196s,  163.03/s (0.198s,  161.26/s) Data: 0.006 (0.010)
+TRAIN [ 700/2250] Loss: 0.0389 (0.0348) Acc: 98.826% LR: 1.000e-03 Time: 0.196s,  163.11/s (0.198s,  161.35/s) Data: 0.006 (0.010)
+TRAIN [ 800/2250] Loss: 0.0214 (0.0349) Acc: 98.801% LR: 1.000e-03 Time: 0.196s,  163.59/s (0.198s,  161.45/s) Data: 0.006 (0.009)
+TRAIN [ 900/2250] Loss: 0.0084 (0.0362) Acc: 98.774% LR: 1.000e-03 Time: 0.196s,  163.42/s (0.198s,  161.44/s) Data: 0.006 (0.009)
+TRAIN [1000/2250] Loss: 0.0075 (0.0365) Acc: 98.778% LR: 1.000e-03 Time: 0.195s,  164.01/s (0.198s,  161.51/s) Data: 0.006 (0.009)
+TRAIN [1100/2250] Loss: 0.0951 (0.0361) Acc: 98.790% LR: 1.000e-03 Time: 0.196s,  162.93/s (0.198s,  161.55/s) Data: 0.006 (0.009)
+TRAIN [1200/2250] Loss: 0.0170 (0.0369) Acc: 98.781% LR: 1.000e-03 Time: 0.197s,  162.41/s (0.198s,  161.50/s) Data: 0.007 (0.009)
+TRAIN [1300/2250] Loss: 0.0083 (0.0370) Acc: 98.788% LR: 1.000e-03 Time: 0.204s,  156.67/s (0.198s,  161.47/s) Data: 0.012 (0.009)
+TRAIN [1400/2250] Loss: 0.0076 (0.0365) Acc: 98.815% LR: 1.000e-03 Time: 0.196s,  163.17/s (0.198s,  161.39/s) Data: 0.006 (0.009)
+TRAIN [1500/2250] Loss: 0.0092 (0.0351) Acc: 98.856% LR: 1.000e-03 Time: 0.197s,  162.76/s (0.198s,  161.39/s) Data: 0.007 (0.009)
+TRAIN [1600/2250] Loss: 0.0047 (0.0353) Acc: 98.852% LR: 1.000e-03 Time: 0.207s,  154.33/s (0.198s,  161.43/s) Data: 0.016 (0.009)
+TRAIN [1700/2250] Loss: 0.0059 (0.0352) Acc: 98.847% LR: 1.000e-03 Time: 0.196s,  162.86/s (0.198s,  161.48/s) Data: 0.007 (0.009)
+TRAIN [1800/2250] Loss: 0.0142 (0.0347) Acc: 98.858% LR: 1.000e-03 Time: 0.196s,  163.49/s (0.198s,  161.49/s) Data: 0.007 (0.009)
+TRAIN [1900/2250] Loss: 0.0015 (0.0342) Acc: 98.868% LR: 1.000e-03 Time: 0.195s,  163.80/s (0.198s,  161.51/s) Data: 0.006 (0.009)
+TRAIN [2000/2250] Loss: 0.0032 (0.0340) Acc: 98.877% LR: 1.000e-03 Time: 0.196s,  163.55/s (0.198s,  161.54/s) Data: 0.007 (0.008)
+TRAIN [2100/2250] Loss: 0.0141 (0.0334) Acc: 98.893% LR: 1.000e-03 Time: 0.208s,  153.59/s (0.198s,  161.57/s) Data: 0.017 (0.008)
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7fd70d10a950>
+Traceback (most recent call last):
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1466, in __del__
+    self._shutdown_workers()
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1430, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/multiprocessing/process.py", line 140, in join
+    res = self._popen.wait(timeout)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/multiprocessing/popen_fork.py", line 45, in wait
+    if not wait([self.sentinel], timeout):
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt:
+Traceback (most recent call last):
+  File "main.py", line 113, in <module>
+    run(cfg)
+  File "main.py", line 94, in run
+    device       = device)
+  File "/home/inho/df_detection/experiments_xception/train.py", line 158, in fit
+    train_metrics = train(model, trainloader, criterion, optimizer, log_interval, device)
+  File "/home/inho/df_detection/experiments_xception/train.py", line 53, in train
+    optimizer.step()
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/optim/lr_scheduler.py", line 68, in wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/optim/optimizer.py", line 140, in wrapper
+    out = func(*args, **kwargs)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/optim/optimizer.py", line 23, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/optim/adam.py", line 252, in step
+    found_inf=found_inf)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/optim/adam.py", line 316, in adam
+    found_inf=found_inf)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/optim/adam.py", line 410, in _single_tensor_adam
+    denom = (exp_avg_sq.sqrt() / bias_correction2_sqrt).add_(eps)
+KeyboardInterrupt

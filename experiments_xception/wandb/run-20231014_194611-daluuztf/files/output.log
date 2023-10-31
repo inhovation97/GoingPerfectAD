@@ -1,0 +1,38 @@
+
+Epoch: 1/100
+TRAIN [ 101/2250] Loss: 0.2509 (0.3946) Acc: 82.178% LR: 1.000e-03 Time: 0.189s,  168.89/s (0.225s,  142.14/s) Data: 0.007 (0.017)
+TRAIN [ 201/2250] Loss: 0.2012 (0.3191) Acc: 86.101% LR: 1.000e-03 Time: 0.187s,  171.16/s (0.207s,  154.36/s) Data: 0.006 (0.013)
+TRAIN [ 301/2250] Loss: 0.1665 (0.2795) Acc: 88.196% LR: 1.000e-03 Time: 0.200s,  160.20/s (0.202s,  158.61/s) Data: 0.016 (0.011)
+TRAIN [ 401/2250] Loss: 0.1395 (0.2478) Acc: 89.651% LR: 1.000e-03 Time: 0.188s,  169.82/s (0.199s,  161.01/s) Data: 0.006 (0.010)
+TRAIN [ 501/2250] Loss: 0.1302 (0.2269) Acc: 90.631% LR: 1.000e-03 Time: 0.188s,  169.82/s (0.197s,  162.14/s) Data: 0.006 (0.010)
+TRAIN [ 601/2250] Loss: 0.0886 (0.2122) Acc: 91.291% LR: 1.000e-03 Time: 0.200s,  159.96/s (0.196s,  162.88/s) Data: 0.015 (0.010)
+TRAIN [ 701/2250] Loss: 0.0177 (0.1989) Acc: 91.922% LR: 1.000e-03 Time: 0.190s,  168.31/s (0.196s,  163.44/s) Data: 0.006 (0.009)
+TRAIN [ 801/2250] Loss: 0.0931 (0.1880) Acc: 92.365% LR: 1.000e-03 Time: 0.193s,  165.58/s (0.195s,  163.92/s) Data: 0.008 (0.009)
+TRAIN [ 901/2250] Loss: 0.1155 (0.1767) Acc: 92.911% LR: 1.000e-03 Time: 0.195s,  164.43/s (0.195s,  164.11/s) Data: 0.010 (0.009)
+TRAIN [1001/2250] Loss: 0.0168 (0.1693) Acc: 93.207% LR: 1.000e-03 Time: 0.193s,  165.57/s (0.195s,  164.32/s) Data: 0.008 (0.009)
+TRAIN [1101/2250] Loss: 0.2081 (0.1627) Acc: 93.500% LR: 1.000e-03 Time: 0.191s,  167.50/s (0.195s,  164.49/s) Data: 0.007 (0.009)
+TRAIN [1201/2250] Loss: 0.1051 (0.1551) Acc: 93.815% LR: 1.000e-03 Time: 0.191s,  167.24/s (0.194s,  164.64/s) Data: 0.009 (0.009)
+TRAIN [1301/2250] Loss: 0.0655 (0.1503) Acc: 94.036% LR: 1.000e-03 Time: 0.189s,  169.28/s (0.194s,  164.79/s) Data: 0.006 (0.009)
+TRAIN [1401/2250] Loss: 0.3295 (0.1437) Acc: 94.305% LR: 1.000e-03 Time: 0.192s,  166.49/s (0.194s,  164.92/s) Data: 0.007 (0.009)
+TRAIN [1501/2250] Loss: 0.2246 (0.1403) Acc: 94.483% LR: 1.000e-03 Time: 0.190s,  168.26/s (0.194s,  165.06/s) Data: 0.007 (0.009)
+TRAIN [1601/2250] Loss: 0.0842 (0.1356) Acc: 94.695% LR: 1.000e-03 Time: 0.190s,  168.78/s (0.194s,  165.18/s) Data: 0.007 (0.009)
+TRAIN [1701/2250] Loss: 0.0174 (0.1313) Acc: 94.884% LR: 1.000e-03 Time: 0.189s,  169.64/s (0.194s,  165.35/s) Data: 0.006 (0.009)
+TRAIN [1801/2250] Loss: 0.0197 (0.1279) Acc: 95.032% LR: 1.000e-03 Time: 0.190s,  168.57/s (0.193s,  165.46/s) Data: 0.007 (0.008)
+TRAIN [1901/2250] Loss: 0.0147 (0.1239) Acc: 95.187% LR: 1.000e-03 Time: 0.188s,  169.97/s (0.193s,  165.55/s) Data: 0.006 (0.008)
+TRAIN [2001/2250] Loss: 0.0141 (0.1202) Acc: 95.334% LR: 1.000e-03 Time: 0.190s,  168.74/s (0.193s,  165.63/s) Data: 0.007 (0.008)
+TRAIN [2101/2250] Loss: 0.0179 (0.1176) Acc: 95.431% LR: 1.000e-03 Time: 0.204s,  156.93/s (0.193s,  165.69/s) Data: 0.016 (0.008)
+TRAIN [2201/2250] Loss: 0.0352 (0.1157) Acc: 95.528% LR: 1.000e-03 Time: 0.189s,  169.40/s (0.193s,  165.75/s) Data: 0.006 (0.008)
+TEST [101/435]: Loss: 0.114 | Acc: 95.637% [3091/3232]
+TEST [201/435]: Loss: 0.134 | Acc: 94.527% [6080/6432]
+TEST [301/435]: Loss: 0.121 | Acc: 95.193% [9169/9632]
+TEST [401/435]: Loss: 0.121 | Acc: 95.129% [12207/12832]
+Traceback (most recent call last):
+  File "main.py", line 105, in <module>
+    run(cfg)
+  File "main.py", line 88, in run
+    device       = device)
+  File "/home/inho/df_detection/experiments_xception/train.py", line 151, in fit
+    os.makedirs(savedir, data_name, exist_ok=True)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/os.py", line 223, in makedirs
+    mkdir(name, mode)
+TypeError: an integer is required (got type str)
