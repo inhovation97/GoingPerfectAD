@@ -1,0 +1,189 @@
+2023-11-16 00:45:12,438 INFO    StreamThr :72652 [internal.py:wandb_internal():89] W&B internal server running at pid: 72652, started at: 2023-11-16 00:45:12.437242
+2023-11-16 00:45:12,443 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: status
+2023-11-16 00:45:12,449 INFO    WriterThread:72652 [datastore.py:open_for_write():85] open: /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/run-lm0q8z81.wandb
+2023-11-16 00:45:12,451 DEBUG   SenderThread:72652 [sender.py:send():380] send: header
+2023-11-16 00:45:12,451 DEBUG   SenderThread:72652 [sender.py:send():380] send: run
+2023-11-16 00:45:12,999 INFO    SenderThread:72652 [dir_watcher.py:__init__():211] watching files in: /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files
+2023-11-16 00:45:12,999 INFO    SenderThread:72652 [sender.py:_start_run_threads():1125] run started: lm0q8z81 with start time 1700063112.436312
+2023-11-16 00:45:13,016 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: check_version
+2023-11-16 00:45:13,017 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: check_version
+2023-11-16 00:45:13,100 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: run_start
+2023-11-16 00:45:13,120 DEBUG   HandlerThread:72652 [system_info.py:__init__():32] System info init
+2023-11-16 00:45:13,120 DEBUG   HandlerThread:72652 [system_info.py:__init__():47] System info init done
+2023-11-16 00:45:13,120 INFO    HandlerThread:72652 [system_monitor.py:start():194] Starting system monitor
+2023-11-16 00:45:13,120 INFO    SystemMonitor:72652 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2023-11-16 00:45:13,121 INFO    HandlerThread:72652 [system_monitor.py:probe():214] Collecting system info
+2023-11-16 00:45:13,122 INFO    SystemMonitor:72652 [interfaces.py:start():190] Started cpu monitoring
+2023-11-16 00:45:13,124 INFO    SystemMonitor:72652 [interfaces.py:start():190] Started disk monitoring
+2023-11-16 00:45:13,126 INFO    SystemMonitor:72652 [interfaces.py:start():190] Started gpu monitoring
+2023-11-16 00:45:13,127 INFO    SystemMonitor:72652 [interfaces.py:start():190] Started memory monitoring
+2023-11-16 00:45:13,131 INFO    SystemMonitor:72652 [interfaces.py:start():190] Started network monitoring
+2023-11-16 00:45:13,217 DEBUG   HandlerThread:72652 [system_info.py:probe():196] Probing system
+2023-11-16 00:45:13,228 DEBUG   HandlerThread:72652 [system_info.py:_probe_git():181] Probing git
+2023-11-16 00:45:13,238 DEBUG   HandlerThread:72652 [system_info.py:_probe_git():189] Probing git done
+2023-11-16 00:45:13,238 DEBUG   HandlerThread:72652 [system_info.py:probe():244] Probing system done
+2023-11-16 00:45:13,238 DEBUG   HandlerThread:72652 [system_monitor.py:probe():223] {'os': 'Linux-4.15.0-197-generic-x86_64-with-debian-buster-sid', 'python': '3.7.16', 'heartbeatAt': '2023-11-15T15:45:13.218045', 'startedAt': '2023-11-15T15:45:12.423610', 'docker': None, 'cuda': None, 'args': ('--default_setting', 'default_configs.yaml', '--dataname', 'dataset4'), 'state': 'running', 'program': 'main_fusion.py', 'codePathLocal': 'main_fusion.py', 'codePath': 'main_fusion.py', 'git': {'remote': None, 'commit': None}, 'email': 'inhovation97@gmail.com', 'root': '/home/inho/df_detection/experiments_OC', 'host': 'gpuserver03', 'username': 'inho', 'executable': '/home/inho/anaconda3/envs/df_detection/bin/python', 'cpu_count': 40, 'cpu_count_logical': 80, 'cpu_freq': {'current': 0.8028499999999988, 'min': 800.0, 'max': 3900.0}, 'cpu_freq_per_core': [{'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 1.466, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 1.649, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.801, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.799, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.801, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 1.345, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 1.767, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.799, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.801, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.799, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.801, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}, {'current': 0.8, 'min': 800.0, 'max': 3900.0}], 'disk': {'/': {'total': 1797.7555694580078, 'used': 1600.91597366333}}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 7, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 251.5458755493164}}
+2023-11-16 00:45:13,238 INFO    HandlerThread:72652 [system_monitor.py:probe():224] Finished collecting system info
+2023-11-16 00:45:13,238 INFO    HandlerThread:72652 [system_monitor.py:probe():227] Publishing system info
+2023-11-16 00:45:13,239 DEBUG   HandlerThread:72652 [system_info.py:_save_pip():53] Saving list of pip packages installed into the current environment
+2023-11-16 00:45:13,239 DEBUG   HandlerThread:72652 [system_info.py:_save_pip():68] Saving pip packages done
+2023-11-16 00:45:13,239 DEBUG   HandlerThread:72652 [system_info.py:_save_conda():76] Saving list of conda packages installed into the current environment
+2023-11-16 00:45:14,002 INFO    Thread-12 :72652 [dir_watcher.py:_on_file_created():271] file/dir created: /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files/conda-environment.yaml
+2023-11-16 00:45:14,002 INFO    Thread-12 :72652 [dir_watcher.py:_on_file_created():271] file/dir created: /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files/requirements.txt
+2023-11-16 00:45:16,001 INFO    Thread-12 :72652 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files/conda-environment.yaml
+2023-11-16 00:45:16,023 DEBUG   HandlerThread:72652 [system_info.py:_save_conda():87] Saving conda packages done
+2023-11-16 00:45:16,027 INFO    HandlerThread:72652 [system_monitor.py:probe():229] Finished publishing system info
+2023-11-16 00:45:16,034 DEBUG   SenderThread:72652 [sender.py:send():380] send: files
+2023-11-16 00:45:16,034 INFO    SenderThread:72652 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-11-16 00:45:16,048 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: stop_status
+2023-11-16 00:45:16,048 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: stop_status
+2023-11-16 00:45:16,055 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-16 00:45:16,335 DEBUG   SenderThread:72652 [sender.py:send():380] send: telemetry
+2023-11-16 00:45:16,841 INFO    wandb-upload_0:72652 [upload_job.py:push():131] Uploaded file /tmp/tmpsxphsmqnwandb/p51kkd36-wandb-metadata.json
+2023-11-16 00:45:17,002 INFO    Thread-12 :72652 [dir_watcher.py:_on_file_created():271] file/dir created: /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files/wandb-metadata.json
+2023-11-16 00:45:17,003 INFO    Thread-12 :72652 [dir_watcher.py:_on_file_created():271] file/dir created: /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files/output.log
+2023-11-16 00:45:17,902 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: status_report
+2023-11-16 00:45:18,926 DEBUG   SenderThread:72652 [sender.py:send():380] send: exit
+2023-11-16 00:45:18,926 INFO    SenderThread:72652 [sender.py:send_exit():585] handling exit code: 1
+2023-11-16 00:45:18,926 INFO    SenderThread:72652 [sender.py:send_exit():587] handling runtime: 5
+2023-11-16 00:45:18,927 INFO    SenderThread:72652 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-16 00:45:18,927 INFO    SenderThread:72652 [sender.py:send_exit():593] send defer
+2023-11-16 00:45:18,928 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: defer
+2023-11-16 00:45:18,928 INFO    HandlerThread:72652 [handler.py:handle_request_defer():172] handle defer: 0
+2023-11-16 00:45:18,929 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: defer
+2023-11-16 00:45:18,929 INFO    SenderThread:72652 [sender.py:send_request_defer():609] handle sender defer: 0
+2023-11-16 00:45:18,929 INFO    SenderThread:72652 [sender.py:transition_state():613] send defer: 1
+2023-11-16 00:45:18,929 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: defer
+2023-11-16 00:45:18,929 INFO    HandlerThread:72652 [handler.py:handle_request_defer():172] handle defer: 1
+2023-11-16 00:45:18,930 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: defer
+2023-11-16 00:45:18,930 INFO    SenderThread:72652 [sender.py:send_request_defer():609] handle sender defer: 1
+2023-11-16 00:45:18,930 INFO    SenderThread:72652 [sender.py:transition_state():613] send defer: 2
+2023-11-16 00:45:18,931 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: defer
+2023-11-16 00:45:18,931 INFO    HandlerThread:72652 [handler.py:handle_request_defer():172] handle defer: 2
+2023-11-16 00:45:18,931 INFO    HandlerThread:72652 [system_monitor.py:finish():203] Stopping system monitor
+2023-11-16 00:45:18,932 INFO    HandlerThread:72652 [interfaces.py:finish():202] Joined cpu monitor
+2023-11-16 00:45:18,933 INFO    HandlerThread:72652 [interfaces.py:finish():202] Joined disk monitor
+2023-11-16 00:45:18,934 DEBUG   SystemMonitor:72652 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2023-11-16 00:45:18,934 DEBUG   SystemMonitor:72652 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2023-11-16 00:45:18,934 DEBUG   SystemMonitor:72652 [system_monitor.py:_start():183] Publishing last batch of metrics
+2023-11-16 00:45:19,003 INFO    Thread-12 :72652 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files/output.log
+2023-11-16 00:45:19,004 INFO    Thread-12 :72652 [dir_watcher.py:_on_file_created():271] file/dir created: /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files/wandb-summary.json
+2023-11-16 00:45:19,528 INFO    HandlerThread:72652 [interfaces.py:finish():202] Joined gpu monitor
+2023-11-16 00:45:19,529 INFO    HandlerThread:72652 [interfaces.py:finish():202] Joined memory monitor
+2023-11-16 00:45:19,530 INFO    HandlerThread:72652 [interfaces.py:finish():202] Joined network monitor
+2023-11-16 00:45:19,531 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: defer
+2023-11-16 00:45:19,532 INFO    SenderThread:72652 [sender.py:send_request_defer():609] handle sender defer: 2
+2023-11-16 00:45:19,532 INFO    SenderThread:72652 [sender.py:transition_state():613] send defer: 3
+2023-11-16 00:45:19,532 DEBUG   SenderThread:72652 [sender.py:send():380] send: stats
+2023-11-16 00:45:19,532 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: defer
+2023-11-16 00:45:19,534 INFO    HandlerThread:72652 [handler.py:handle_request_defer():172] handle defer: 3
+2023-11-16 00:45:19,535 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: defer
+2023-11-16 00:45:19,535 INFO    SenderThread:72652 [sender.py:send_request_defer():609] handle sender defer: 3
+2023-11-16 00:45:19,535 INFO    SenderThread:72652 [sender.py:transition_state():613] send defer: 4
+2023-11-16 00:45:19,535 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: defer
+2023-11-16 00:45:19,535 INFO    HandlerThread:72652 [handler.py:handle_request_defer():172] handle defer: 4
+2023-11-16 00:45:19,536 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: defer
+2023-11-16 00:45:19,536 INFO    SenderThread:72652 [sender.py:send_request_defer():609] handle sender defer: 4
+2023-11-16 00:45:19,536 INFO    SenderThread:72652 [sender.py:transition_state():613] send defer: 5
+2023-11-16 00:45:19,536 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: defer
+2023-11-16 00:45:19,537 INFO    HandlerThread:72652 [handler.py:handle_request_defer():172] handle defer: 5
+2023-11-16 00:45:19,537 DEBUG   SenderThread:72652 [sender.py:send():380] send: summary
+2023-11-16 00:45:19,538 INFO    SenderThread:72652 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-11-16 00:45:19,539 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: defer
+2023-11-16 00:45:19,539 INFO    SenderThread:72652 [sender.py:send_request_defer():609] handle sender defer: 5
+2023-11-16 00:45:19,539 INFO    SenderThread:72652 [sender.py:transition_state():613] send defer: 6
+2023-11-16 00:45:19,539 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: defer
+2023-11-16 00:45:19,539 INFO    HandlerThread:72652 [handler.py:handle_request_defer():172] handle defer: 6
+2023-11-16 00:45:19,540 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: defer
+2023-11-16 00:45:19,540 INFO    SenderThread:72652 [sender.py:send_request_defer():609] handle sender defer: 6
+2023-11-16 00:45:19,546 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: status_report
+2023-11-16 00:45:19,829 INFO    SenderThread:72652 [sender.py:transition_state():613] send defer: 7
+2023-11-16 00:45:19,830 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: defer
+2023-11-16 00:45:19,830 INFO    HandlerThread:72652 [handler.py:handle_request_defer():172] handle defer: 7
+2023-11-16 00:45:19,831 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: defer
+2023-11-16 00:45:19,831 INFO    SenderThread:72652 [sender.py:send_request_defer():609] handle sender defer: 7
+2023-11-16 00:45:19,926 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-16 00:45:20,004 INFO    Thread-12 :72652 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files/wandb-summary.json
+2023-11-16 00:45:20,005 INFO    Thread-12 :72652 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files/config.yaml
+2023-11-16 00:45:20,882 INFO    SenderThread:72652 [sender.py:transition_state():613] send defer: 8
+2023-11-16 00:45:20,883 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: poll_exit
+2023-11-16 00:45:20,883 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: defer
+2023-11-16 00:45:20,884 INFO    HandlerThread:72652 [handler.py:handle_request_defer():172] handle defer: 8
+2023-11-16 00:45:20,885 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: defer
+2023-11-16 00:45:20,885 INFO    SenderThread:72652 [sender.py:send_request_defer():609] handle sender defer: 8
+2023-11-16 00:45:20,885 INFO    SenderThread:72652 [job_builder.py:build():281] Attempting to build job artifact
+2023-11-16 00:45:20,886 INFO    SenderThread:72652 [job_builder.py:_get_source_type():404] no source found
+2023-11-16 00:45:20,887 INFO    SenderThread:72652 [sender.py:transition_state():613] send defer: 9
+2023-11-16 00:45:20,887 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: defer
+2023-11-16 00:45:20,887 INFO    HandlerThread:72652 [handler.py:handle_request_defer():172] handle defer: 9
+2023-11-16 00:45:20,888 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: defer
+2023-11-16 00:45:20,888 INFO    SenderThread:72652 [sender.py:send_request_defer():609] handle sender defer: 9
+2023-11-16 00:45:20,888 INFO    SenderThread:72652 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-11-16 00:45:20,927 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-16 00:45:21,005 INFO    Thread-12 :72652 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files/output.log
+2023-11-16 00:45:21,006 INFO    SenderThread:72652 [dir_watcher.py:finish():388] scan: /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files
+2023-11-16 00:45:21,007 INFO    SenderThread:72652 [dir_watcher.py:finish():402] scan save: /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files/requirements.txt requirements.txt
+2023-11-16 00:45:21,007 INFO    SenderThread:72652 [dir_watcher.py:finish():402] scan save: /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files/config.yaml config.yaml
+2023-11-16 00:45:21,007 INFO    SenderThread:72652 [dir_watcher.py:finish():402] scan save: /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files/conda-environment.yaml conda-environment.yaml
+2023-11-16 00:45:21,008 INFO    SenderThread:72652 [dir_watcher.py:finish():402] scan save: /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files/wandb-metadata.json wandb-metadata.json
+2023-11-16 00:45:21,014 INFO    SenderThread:72652 [dir_watcher.py:finish():402] scan save: /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files/wandb-summary.json wandb-summary.json
+2023-11-16 00:45:21,015 INFO    SenderThread:72652 [dir_watcher.py:finish():402] scan save: /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files/output.log output.log
+2023-11-16 00:45:21,025 INFO    SenderThread:72652 [sender.py:transition_state():613] send defer: 10
+2023-11-16 00:45:21,025 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: poll_exit
+2023-11-16 00:45:21,026 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: defer
+2023-11-16 00:45:21,028 INFO    HandlerThread:72652 [handler.py:handle_request_defer():172] handle defer: 10
+2023-11-16 00:45:21,051 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: defer
+2023-11-16 00:45:21,051 INFO    SenderThread:72652 [sender.py:send_request_defer():609] handle sender defer: 10
+2023-11-16 00:45:21,052 INFO    SenderThread:72652 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-16 00:45:21,511 INFO    wandb-upload_1:72652 [upload_job.py:push():131] Uploaded file /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files/requirements.txt
+2023-11-16 00:45:21,544 INFO    wandb-upload_2:72652 [upload_job.py:push():131] Uploaded file /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files/config.yaml
+2023-11-16 00:45:21,567 INFO    wandb-upload_4:72652 [upload_job.py:push():131] Uploaded file /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files/wandb-summary.json
+2023-11-16 00:45:21,615 INFO    wandb-upload_3:72652 [upload_job.py:push():131] Uploaded file /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files/conda-environment.yaml
+2023-11-16 00:45:21,617 INFO    wandb-upload_5:72652 [upload_job.py:push():131] Uploaded file /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/files/output.log
+2023-11-16 00:45:21,818 INFO    Thread-11 :72652 [sender.py:transition_state():613] send defer: 11
+2023-11-16 00:45:21,818 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: defer
+2023-11-16 00:45:21,819 INFO    HandlerThread:72652 [handler.py:handle_request_defer():172] handle defer: 11
+2023-11-16 00:45:21,820 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: defer
+2023-11-16 00:45:21,820 INFO    SenderThread:72652 [sender.py:send_request_defer():609] handle sender defer: 11
+2023-11-16 00:45:21,820 INFO    SenderThread:72652 [file_pusher.py:join():181] waiting for file pusher
+2023-11-16 00:45:21,820 INFO    SenderThread:72652 [sender.py:transition_state():613] send defer: 12
+2023-11-16 00:45:21,821 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: defer
+2023-11-16 00:45:21,821 INFO    HandlerThread:72652 [handler.py:handle_request_defer():172] handle defer: 12
+2023-11-16 00:45:21,822 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: defer
+2023-11-16 00:45:21,822 INFO    SenderThread:72652 [sender.py:send_request_defer():609] handle sender defer: 12
+2023-11-16 00:45:21,822 INFO    SenderThread:72652 [file_stream.py:finish():595] file stream finish called
+2023-11-16 00:45:21,929 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-16 00:45:22,734 INFO    SenderThread:72652 [file_stream.py:finish():599] file stream finish is done
+2023-11-16 00:45:22,734 INFO    SenderThread:72652 [sender.py:transition_state():613] send defer: 13
+2023-11-16 00:45:22,735 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: poll_exit
+2023-11-16 00:45:22,735 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: defer
+2023-11-16 00:45:22,736 INFO    HandlerThread:72652 [handler.py:handle_request_defer():172] handle defer: 13
+2023-11-16 00:45:22,736 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: defer
+2023-11-16 00:45:22,737 INFO    SenderThread:72652 [sender.py:send_request_defer():609] handle sender defer: 13
+2023-11-16 00:45:22,737 INFO    SenderThread:72652 [sender.py:transition_state():613] send defer: 14
+2023-11-16 00:45:22,738 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: defer
+2023-11-16 00:45:22,738 INFO    HandlerThread:72652 [handler.py:handle_request_defer():172] handle defer: 14
+2023-11-16 00:45:22,739 DEBUG   SenderThread:72652 [sender.py:send():380] send: final
+2023-11-16 00:45:22,739 DEBUG   SenderThread:72652 [sender.py:send():380] send: footer
+2023-11-16 00:45:22,740 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: defer
+2023-11-16 00:45:22,740 INFO    SenderThread:72652 [sender.py:send_request_defer():609] handle sender defer: 14
+2023-11-16 00:45:22,741 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-16 00:45:22,742 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: poll_exit
+2023-11-16 00:45:22,744 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: poll_exit
+2023-11-16 00:45:22,744 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: server_info
+2023-11-16 00:45:22,745 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: poll_exit
+2023-11-16 00:45:22,745 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: get_summary
+2023-11-16 00:45:22,746 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: server_info
+2023-11-16 00:45:22,747 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: sampled_history
+2023-11-16 00:45:22,753 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: internal_messages
+2023-11-16 00:45:22,755 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: job_info
+2023-11-16 00:45:22,926 DEBUG   SenderThread:72652 [sender.py:send_request():407] send_request: job_info
+2023-11-16 00:45:22,927 INFO    MainThread:72652 [wandb_run.py:_footer_history_summary_info():3599] rendering history
+2023-11-16 00:45:22,928 INFO    MainThread:72652 [wandb_run.py:_footer_history_summary_info():3631] rendering summary
+2023-11-16 00:45:22,928 INFO    MainThread:72652 [wandb_run.py:_footer_sync_info():3558] logging synced files
+2023-11-16 00:45:22,929 DEBUG   HandlerThread:72652 [handler.py:handle_request():146] handle_request: shutdown
+2023-11-16 00:45:22,929 INFO    HandlerThread:72652 [handler.py:finish():866] shutting down handler
+2023-11-16 00:45:23,756 INFO    WriterThread:72652 [datastore.py:close():294] close: /home/inho/df_detection/experiments_OC/wandb/run-20231116_004512-lm0q8z81/run-lm0q8z81.wandb
+2023-11-16 00:45:23,927 INFO    SenderThread:72652 [sender.py:finish():1534] shutting down sender
+2023-11-16 00:45:23,927 INFO    SenderThread:72652 [file_pusher.py:finish():175] shutting down file pusher
+2023-11-16 00:45:23,928 INFO    SenderThread:72652 [file_pusher.py:join():181] waiting for file pusher

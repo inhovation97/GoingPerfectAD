@@ -1,0 +1,56 @@
+
+Epoch: 1/50
+
+
+
+
+
+
+
+
+
+
+
+  3168/144000: [>...............................] - ETA 10710.3s
+
+
+
+
+
+
+
+
+
+
+
+  6336/144000: [=>..............................] - ETA 10469.4s
+
+
+
+
+
+
+
+
+
+
+
+  9504/144000: [==>.............................] - ETA 10228.5s
+
+  9696/144000: [==>.............................] - ETA 10213.9s
+Traceback (most recent call last):
+  File "main_fusion.py", line 136, in <module>
+    run(cfg)
+  File "main_fusion.py", line 108, in run
+    amp         = cfg['TRAINING']['amp'])
+  File "/home/inho/df_detection/experiments_OC/train_fusion.py", line 184, in fit
+    train_metrics = train(model1, model2, trainloader, criterion1, criterion2, consistency_rate, optimizer, log_interval, device, amp)
+  File "/home/inho/df_detection/experiments_OC/train_fusion.py", line 61, in train
+    scaler.step(optimizer)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/cuda/amp/grad_scaler.py", line 341, in step
+    retval = self._maybe_opt_step(optimizer, optimizer_state, *args, **kwargs)
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/cuda/amp/grad_scaler.py", line 287, in _maybe_opt_step
+    if not sum(v.item() for v in optimizer_state["found_inf_per_device"].values()):
+  File "/home/inho/anaconda3/envs/df_detection/lib/python3.7/site-packages/torch/cuda/amp/grad_scaler.py", line 287, in <genexpr>
+    if not sum(v.item() for v in optimizer_state["found_inf_per_device"].values()):
+KeyboardInterrupt
